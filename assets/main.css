@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 99vh;
+  background-color: #303030;
+}
+.animation {
+  transform: translateY(-1000px);
+}
+#enemy {
+  position: relative;
+  top: 500px;
+  width: 100px;
+  height: 100px;
+  background: lightseagreen;
+  left: calc(50% - 50px);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  transition: all 1s;
+  border-radius: 5%;
+}
+#count {
+  font-size: 35px;
+  color: aliceblue;
+}
